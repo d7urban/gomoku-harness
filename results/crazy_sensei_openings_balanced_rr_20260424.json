@@ -1,0 +1,62 @@
+{
+  "balance_method": "result_black_score",
+  "balanced": true,
+  "format": "gomoku-harness-openings",
+  "generated_at": "2026-04-24T14:26:52+00:00",
+  "opening_count": 2,
+  "opening_stats": [
+    {
+      "black_score": 0.3333333333333333,
+      "black_wins": 2,
+      "deviation": 0.16666666666666669,
+      "draws": 0,
+      "games": 6,
+      "id": "F1",
+      "white_wins": 4
+    },
+    {
+      "black_score": 0.3333333333333333,
+      "black_wins": 2,
+      "deviation": 0.16666666666666669,
+      "draws": 0,
+      "games": 6,
+      "id": "D1",
+      "white_wins": 4
+    }
+  ],
+  "openings": [
+    {
+      "id": "F1",
+      "moves": [
+        {
+          "x": 5,
+          "y": 14
+        }
+      ],
+      "name": "F1",
+      "ply": 1
+    },
+    {
+      "id": "D1",
+      "moves": [
+        {
+          "x": 3,
+          "y": 14
+        }
+      ],
+      "name": "D1",
+      "ply": 1
+    }
+  ],
+  "selection": {
+    "max_black_score_deviation": 0.2,
+    "max_unique": 32,
+    "min_games": 6
+  },
+  "source_openings_file": "results/crazy_sensei_openings_253.json",
+  "source_results_dirs": [
+    "results/time_control_round_robin_expert_time_controls_20260424_010337"
+  ],
+  "unique_opening_count": 2,
+  "version": 1
+}

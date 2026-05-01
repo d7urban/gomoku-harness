@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+.pytest_cache/
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local assistant / editor state
+.codex/
+
+# Generated experiment outputs. Keep curated opening sets tracked.
+results/*
+!results/crazy_sensei_openings_253.json
+!results/crazy_sensei_openings_balanced_rr_20260424.json
