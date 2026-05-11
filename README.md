@@ -111,6 +111,19 @@ uv run python -m harness.time_control_round_robin \
     --label no_book
 ```
 
+For the current gomoku-minimax quiescence/time-governor comparison, run the
+same script against a direct `gomoku_gomocup` binary and the balanced
+round-robin opening set:
+
+```sh
+python3 harness/time_control_round_robin.py \
+    --engine-cmd "../gomoku-minimax/build/gomoku_gomocup --threads 16" \
+    --presets "blitz,fast" \
+    --games-per-pair 20 \
+    --openings-file results/crazy_sensei_openings_balanced_rr_20260424.json \
+    --label semanticfix_blitz_vs_fast_Qfix-TMfix-20g
+```
+
 Built-in presets (in `time_control_round_robin.py` and `sweep.py`):
 
 | preset | period clock | avg per move |
